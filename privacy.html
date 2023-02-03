@@ -8,275 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    </head>
-    <style>
-        @media screen and (min-width: 700px) {
-            
-            .largeTitle {
-                font-size: 80px;
-            }
-            .text {
-                margin-left: 30%;
-                margin-right: 30%;
-                font-size: 20px;
-                text-align: left;
-                padding-left: 80px;
-                margin-top: 0px;
-            }
-            .largeText {
-                margin-left: 20%;
-                margin-right: 20%;
-                font-size: 25px;
-            }
-            .titleImage {
-                width: 30%;
-                text-align: center;
-            }
-            hr {
-                border:1px solid #c4c4c4;
-                border-radius: 1px;
-                swidth: 60%;
-            }
-            .largeMargin {
-                margin-right: 25%;
-                margin-left: 25%
-            }
-            .smallMargin {
-                margin-right: 15%;
-                margin-left: 15%
-            }
-        }
-        @media screen and (max-width: 700px) {
-            .largeTitle {
-                font-size: 60px;
-            }
-            .text {
-                margin-left: 20%;
-                margin-right: 20%;
-                font-size: 20px;
-                text-align: left;
-                
-            }
-            .largeText {
-                margin-left: 15%;
-                margin-right: 15%;
-                font-size: 25px;
-            }
-            .titleImage {
-                width: 50%;
-                text-align: center;
-            }
-            hr {
-               border: 1px solid #c4c4c4;
-               border-radius: 1px;
-               swidth: 70%;
-            }
-            .largeMargin {
-                margin-right: 15%;
-                margin-left: 15%
-            }
-            .smallMargin {
-                margin-right: 8%;
-                margin-left: 8%
-            }
-        }
-        @media screen and (max-width: 410px) {
-            .largeTitle {
-                font-size: 50px;
-            }
-            .text {
-                margin-left: 20px;
-                margin-right: 20px;
-                font-size: 20px;
-                text-align: left;
-            }
-            .largeText {
-                margin-left: 10%;
-                margin-right: 10%;
-                font-size: 20px;
-            }
-            .titleImage {
-                width: 80%;
-                text-align: center;
-            }
-            hr {
-                border: 1px solid #c4c4c4;
-                border-radius: 1px;
-                swidth: 90%;
-            }
-            .largeMargin {
-                margin-right: 5%;
-                margin-left: 5%
-            }
-            .smallMargin {
-                margin-right: 2%;
-                margin-left: 2%
-            }
-        }
-        
-        .auto_image {
-           background-image: url('./images/Icon-128.png');
-           background-size: 50px;
-           width: 50px;
-           height: 50px;
-           margin-right: -20px;
-        }
-        
-        
-        
-        
-        
-        body {
-            font-family: helvetica;
-            text-align: center;
-            zoom: 100%;
-        }
-        .link {
-            color: #515151;
-            font-size: 8pt;
-            text-decoration: none;
-        }
-        .link:hover {
-            color: #0c0c0c;
-        }
-        
-        
-        .footerLink {
-            color: #b5b5b5;
-            font-size: 11pt;
-            text-decoration: none;
-        }
-        .footerLink:hover {
-            color: #e8e8e8;
-        }
-        
-        
-        .footerHeader {
-            color: #e8e8e8;
-            font-size: 11pt;
-            font-weight: bold;
-        }
-        
-        .image-wrapper {
-            width: 60px;
-            height: 60px;
-            margin-right: 20px;
-            overflow: hidden;
-            position: relative;
-            background: #017BFF;
-            border-radius: 50%;
-        }
-        .image-wrapper img {
-            width: 50%;
-            height: 50%;
-            position: relative;
-            margin-left: 25%;
-            margin-right: 25%;
-            margin-top: 25%;
-            margin-bottom: 25%;
-            text-align:center;
-            background: clear;
-        }
-        .footer {
-            width: 100%;
-            height: 50%;
-            position: relative;
-            margin-left: 25%;
-            margin-right: 25%;
-            margin-top: 25%;
-            margin-bottom: 25%;
-            text-align:center;
-            background: clear;
-        }
-        .button {
-            background-color: #FFF;
-            border: 2px solid #017BFF;
-            color: #2e2e2e;
-            height: 40px;
-            width: 125px;
-            text-align: center;
-            font-size: 14pt;
-            text-decoration: none;
-            cursor: pointer;
-            border-radius: 20px;
-        }
-        .button:hover {
-            background-color: #017BFF;
-            color: white;
-            transition: 0.3s;
-        }
-        
-        .button2 {
-            background-color: #017BFF;
-            border: 0px solid #017BFF;
-            color: white;
-            height: 50px;
-            width: 150px;
-            text-align: center;
-            font-size: 14pt;
-            text-decoration: none;
-            cursor: pointer;
-            border-radius: 20px;
-        }
-        .button2:hover {
-            background-color: #FFF;
-            border: 2px solid #017BFF;
-            color: #017BFF;
-            transition: 0.3s;
-        }
-        
-        .smallImage {
-            width:110px;
-            height:110px;
-        }
-        
-        .downloadDiv {
-            margin: auto;
-            right: 0;
-            left: 0;
-            width: 500px;
-            background-color: #e0e0e0;
-            border-radius: 50px;
-        }
-        
-        
-        .horizontal {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-        }
-        
-        
-        .topnav {
-          overflow: hidden;
-          background-color: clear;
-          
-          margin-top: -10px;
-          margin-bottom: -10px;
-          margin-left: -10px;
-          margin-right: -10px;
-        }
-        
-        .topnav a {
-          float: left;
-          color: gray;
-          text-align: center;
-          padding: 8px;
-          padding-top: 12px;
-          text-decoration: none;
-          font-size: 17px;
-        }
-        
-        .topnav a:hover {
-          color:  #aaaaaa;
-        }
-        
-        .topnav a.active {
-          color: #2e2e2e;
-        }
-        
-        
-    </style>
+        <link rel="stylesheet" type="text/css" href="./style.css"/>
     <body>
         
         
@@ -289,110 +21,31 @@
                 </div>
             </a>
             
-            <a href="./index.html" class="active">Home</a>
+            <a href="./index.html">Home</a>
             <a href="./support.html">Support</a>
-            <a href="./privacy-policy.html">Privacy Policy</a>
+            <a href="./privacy.html" class="active">Privacy Policy</a>
             
         </div>
         
-        <h1 class="largeTitle" style="margin-right: 10%; margin-left: 10%;">Your Ultimate Shopping Companion</h1>
+        <h1 class="largeTitle2" style="margin-right: 10%; margin-left: 10%;">Privacy Policy</h1>
+        <br><br>
         
-        <br>
-        <p class="largeText" style="font-size: 35px; color: #017BFF;">
-            Meet Peppercorn.
+        
+        
+        <p class="text">
+            This application does not collect any personal information.
+        
+            <br>
+            <br>
+            
+            We may update our Privacy Policy from time to time. We will notify you of these changes by posting them here and by placing a prominent notice within the app. If you have any questions about our Privacy Policy, please contact us at sparkcardshelp@gmail.com.
+            
+            <br>
+            <br>
+            
+            This policy is effective as of 1/1/2023.
         </p>
         
-        
-        <p class="largeText largeMargin">
-            Whether you're shopping for groceries, cooking, planning a meal, or tracking your inventory, peppercorn is your ultimate tool. Here's why.
-        </p>
-        
-        <br><br>
-        
-        <a href="https://apps.apple.com/us/app/sparkcards/id1602977190"><img src="./images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" height="45" style=""></a>
-        <br>
-        
-        <!--<img src="./images/mockup.png" width="50%">-->
-        
-        
-        <br><br>
-        
-        
-        <a href="./support.html" ><button class="button">Support &rsaquo;</button></a>
-        <br><br>
-        
-        
-        <br><br>
-        
-        <hr class="smallMargin">
-        <br><br><br>
-        
-        <div class="horizontal smallMargin">
-            <div class="image-wrapper">
-                <img src="./images/features/list.png"/>
-            </div>
-            <h2>Shopping Lists</h2>
-        </div>
-        <p class="text smallMargin">
-            Shop and check off items easily with a simple and clean shopping list interface. Auto categorizing and grouping of items automatically sorts and groups items based on their categories. You can also share and collaborate on lists with friends and family.
-        </p>
-        <br><br>
-        
-        
-        
-        <div class="horizontal smallMargin">
-            <div class="image-wrapper">
-                <img src="./images/features/recipe.png"/>
-            </div>
-            <h2>Recipes</h2>
-        </div>
-        <p class="text smallMargin">
-            Add recipes or import them from the web, and add ingredients to your shopping list with a tap. Enjoy a great cooking experience optimized for mobile.
-        </p>
-        <br><br>
-        
-        <div class="horizontal smallMargin">
-            <div class="image-wrapper">
-                <img src="./images/features/mealplan.png"/>
-            </div>
-            <h2>Meal Plan</h2>
-        </div>
-        <p class="text smallMargin">
-            Plan your week with Meal Plan and easily view the recipes and add ingredients to your list. Plan your week with Meal Plan and easily view the recipes and add ingredients to your list.
-        </p>
-        <br><br>
-        
-        
-        <div class="horizontal smallMargin">
-            <div class="image-wrapper">
-                <img src="./images/features/inventory.png"/>
-            </div>
-            <h2>Inventory</h2>
-        </div>
-        <p class="text smallMargin">
-            Keep track of reordering items and stock levels. Automatic Reorder Period allows you to schedule reorder periods for items used regularly. Scan the item's barcode to find it again easily.
-        </p>
-        <br><br><br>
-        <hr class="smallMargin">
-        
-      
-        
-        
-        <br><br><br><br><br>
-        
-        <br>
-        
-        <img src="./images/Icon-256.png" style"" alt="Peppercorn" class="smallImage" >
-        
-        <br>
-        <h1 style="font-size:45px; font-weight:500;">Get started with<br>Peppercorn today.</h1>
-        
-        
-        <a href="https://apps.apple.com/us/app/sparkcards/id1602977190" ><button class="button2">Download</button></a>
-        
-        
-        
-        <br>
         
         
         <br><br><br><br><br>
@@ -402,15 +55,18 @@
         
         
         
-        <div style="background-color:#333333; margin-bottom:-10px; margin-left:-10px; margin-right:-10px;">
+        <div class="horizontal-adaptable-small" style="background-color: #333333; padding-left: 20px; margin-bottom: 0px; margin-left:-10px; margin-right:-10px;">
             <br>
             <a class="footerLink" href="./support.html">Support</a>
+            <p class="horizontal-adaptable-divider">|</p>
             <br><br>
             <a class="footerLink" href="https://apps.apple.com/us/app/sparkcards/id1602977190">Download</a>
+            <p class="horizontal-adaptable-divider">|</p>
             <br><br>
             <a class="footerLink" href="mailto:sparkcardshelp@gmail.com?subject=SparkCards Support Request">Contact</a>
+            <p class="horizontal-adaptable-divider">|</p>
             <br><br>
-            <a class="footerLink" href="./privacy-policy.html">Privacy Policy</a>
+            <a class="footerLink" href="./privacy.html">Privacy Policy</a>
             <br><br>
         </div>
         
