@@ -382,3 +382,36 @@ body {
 .accordianIndicator {
     font-family:courier;
 }
+
+
+.margin1 {
+    height: 20px;
+}
+
+.margin2 {
+    height: 50px;
+}
+
+.margin3 {
+    height: 100px;
+}
+
+.margin4 {
+    height: 200px;
+}
+
+.margin5 {
+    height: 300px;
+}
+
+.margin6 {
+    height: 400px;
+}
+
+.margin7 {
+    height: 500px;
+}
+
+.margin8 {
+    height: 600px;
+}
