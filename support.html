@@ -9,8 +9,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="./style.css"/>
     </head>
-    <style>
+    <!--<style>
         
         @media screen and (min-width: 1000px) {
             .largeTitle {
@@ -250,7 +251,7 @@
         }
         
         
-    </style>
+    </style> -->
     
     <script type="text/javascript" language="JavaScript">
         function toggleSection(sSection) {
@@ -303,12 +304,12 @@
             
         </div>
         
-        <h1 class="largeTitle" style="margin-right: 10%; margin-left: 10%;">Peppercorn Support</h1>
+        <h1 class="largeTitle2" style="margin-right: 10%; margin-left: 10%;">Peppercorn Support</h1>
         
         
         
         
-        <p style="margin-left:20%; margin-right:20%">Experiencing an issue or have a question about our products or services? <br> Please feel free to <a href="mailto:sparkcardshelp@gmail.com?subject=SparkCards Support Request" style="color:#017BFF; text-decoration: none;">contact us</a> to get in touch with our support team.</p>
+        <p class="smallText" style="margin-left:20%; margin-right:20%; text-align: center;">Experiencing an issue or have a question about our products or services? Please <a href="mailto:sparkcardshelp@gmail.com?subject=SparkCards Support Request" style="color:#017BFF; text-decoration: none;">contact us</a> to get in touch with our support team.</p>
         
         <a href="mailto:sparkcardshelp@gmail.com?subject=SparkCards Support Request" ><button class="button">Contact Support &rsaquo;</button></a>
         <br><br><br><br><br>
@@ -399,16 +400,41 @@
             <br>
             
             <div class="header" onClick="toggleSection ('Inventory')" id="oInventoryHeader">
-                <span id="oInventoryInd"><img src="./images/plus.png" style="width:25px;margin-bottom:-6px" /></span> &nbsp Manage Inventory Items
+                <span id="oInventoryInd"><img src="./images/plus.png" style="width:25px;margin-bottom:-6px" /></span> &nbsp Inventory Item Options
             </div>
             <div class="content" id="oInventoryContent">
-                <ol>
-                    <li>Barcode</li>
-                    <li>Reorder Period</li>
-                    <li>List</li>
-                    <li>Category</li>
-                    <li>Reorder Notification</li>
-                </ol>
+                <strong>Barcode</strong>
+                <ul>
+                    <li>Tap the "Scan Barcode" button to scan the item's barcode.</li>
+                    <li>You can tap the barcode button in the search bar to scan an item's barcode, making it easy to find it later.</li>
+                    <li>The app suppords all of the most common barcodes.</li>
+                </ul>
+                <p>Note: Access to the camera is required for these functions.</p>
+                
+                <strong>Reorder Period</strong>
+                <ul>
+                    <li>Set how often you want the item to be automatically added to your list.</li>
+                </ul>
+                <p>Note: Turn on the "Reorder" switch to access this option.</p>
+                
+                <strong>List</strong>
+                <ul>
+                    <li>Choose the list you want the item to be added to when the reorder time elapses.</li>
+                </ul>
+                <p>Note: Turn on the "Reorder" switch to access this option.</p>
+                
+                <strong>Category</strong>
+                <ul>
+                    <li>Choose what category to add the item to in the specified list.</li>
+                </ul>
+                <p>Note: Turn on the "Reorder" switch to access this option.</p>
+                
+                <strong>Reorder Notification</strong>
+                <ul>
+                    <li>Choose wether or not to recieve a notification when the item was automatically added to your list.</li>
+                </ul>
+                <p>Note: Turn on the "Reorder" switch to access this option.</p>
+                
             </div>
             
             
@@ -421,13 +447,19 @@
         
         
         
-        <div style="background-color:#333333; margin-bottom:-10px; margin-left:-10px; margin-right:-10px;">
+        
+        
+        
+        <div class="horizontal-adaptable-small" style="background-color: #333333; padding-left: 20px; margin-bottom: 0px; margin-left:-10px; margin-right:-10px;">
             <br>
             <a class="footerLink" href="./support.html">Support</a>
+            <p class="horizontal-adaptable-divider">|</p>
             <br><br>
             <a class="footerLink" href="https://apps.apple.com/us/app/sparkcards/id1602977190">Download</a>
+            <p class="horizontal-adaptable-divider">|</p>
             <br><br>
             <a class="footerLink" href="mailto:sparkcardshelp@gmail.com?subject=SparkCards Support Request">Contact</a>
+            <p class="horizontal-adaptable-divider">|</p>
             <br><br>
             <a class="footerLink" href="./privacy-policy.html">Privacy Policy</a>
             <br><br>
