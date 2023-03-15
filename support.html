@@ -277,8 +277,8 @@
                 oIndicator.innerHTML = '<img src="./images/plus.png" style="width:25px;margin-bottom:-6px" />';
                 
                 $(oSection).slideUp ('fast', function () {
-                    oHeader.style.borderBottomLeftRadius = '12px';
-                    oHeader.style.borderBottomRightRadius = '12px';
+                    oHeader.style.borderBottomLeftRadius = '16px';
+                    oHeader.style.borderBottomRightRadius = '16px';
                 });
                 
                 
@@ -320,17 +320,17 @@
             <h1 style="margin-left:10%; margin-right:10%;">Frequently Asked Questions</h1>
         </a>
         
-        
+        <div class="margin1"></div>
         
         
         <div style="text-align:left;" class="questions">
             
             
             <div class="header" onClick="toggleSection ('AddList')" id="oAddListHeader">
-                <span id="oAddListInd"><img src="./images/plus.png" style="width:25px;margin-bottom:-6px" /></span> &nbsp Add Shopping List
+                <span id="oAddListInd"><img src="./images/plus.png" style="width:25px;margin-bottom:-6px" /></span>&nbsp Add Shopping List
             </div>
             <div class="content" id="oAddListContent">
-                <strong>Add Existing List</strong>
+                <p class="headerText">Add Existing List</p>
                 <ol>
                     <li>Open Peppercorn.</li>
                     <li>Go to the "Shopping Lists" tab.</li>
@@ -339,7 +339,7 @@
                     <li>Tap the list you want to add.</li>
                 </ol>
                 
-                <strong>Add Existing List</strong>
+                <p class="headerText">Create New List</p>
                 <ol>
                     <li>Open Peppercorn.</li>
                     <li>Go to the "Shopping Lists" tab.</li>
@@ -351,7 +351,7 @@
             <br>
             
             <div class="header" onClick="toggleSection ('ShareList')" id="oShareListHeader">
-                <span id="oShareListInd"><img src="./images/plus.png" style="width:25px;margin-bottom:-6px" /></span> &nbsp Sharing Lists
+                <span id="oShareListInd"><img src="./images/plus.png" style="width:25px;margin-bottom:-6px" /></span>&nbsp Sharing Lists
             </div>
             <div class="content" id="oShareListContent">
                 <ol>
@@ -364,7 +364,7 @@
             <br>
             
             <div class="header" onClick="toggleSection ('ImportRecipe')" id="oImportRecipeHeader">
-                <span id="oImportRecipeInd"><img src="./images/plus.png" style="width:25px;margin-bottom:-6px" /></span> &nbsp Import Recipe from Webpage
+                <span id="oImportRecipeInd"><img src="./images/plus.png" style="width:25px;margin-bottom:-6px" /></span>&nbsp Import Recipe from Webpage
             </div>
             <div class="content" id="oImportRecipeContent">
                 <ol>
@@ -381,7 +381,7 @@
             <br>
             
             <div class="header" onClick="toggleSection ('PlanMeals')" id="oPlanMealsHeader">
-                <span id="oPlanMealsInd"><img src="./images/plus.png" style="width:25px;margin-bottom:-6px" /></span> &nbsp Plan Meals
+                <span id="oPlanMealsInd"><img src="./images/plus.png" style="width:25px;margin-bottom:-6px" /></span>&nbsp Plan Meals
             </div>
             <div class="content" id="oPlanMealsContent">
                 <ol>
@@ -395,46 +395,41 @@
                     <li>Tap "Done."</li>
                     
                 </ol>
-                <p>Note: You need 7 meals planned to display the week view.</p>
             </div>
             
             <br>
             
             <div class="header" onClick="toggleSection ('Inventory')" id="oInventoryHeader">
-                <span id="oInventoryInd"><img src="./images/plus.png" style="width:25px;margin-bottom:-6px" /></span> &nbsp Inventory Item Options
+                <span id="oInventoryInd"><img src="./images/plus.png" style="width:25px;margin-bottom:-6px" /></span>&nbsp Inventory Item Options
             </div>
             <div class="content" id="oInventoryContent">
-                <strong>Barcode</strong>
+                <p class="headerText">Barcode</p>
                 <ul>
                     <li>Tap the "Scan Barcode" button to scan the item's barcode.</li>
                     <li>You can tap the barcode button in the search bar to scan an item's barcode, making it easy to find it later.</li>
-                    <li>The app supports all of the most common barcodes.</li>
+                    <li>All of the most common barcodes are supported.</li>
                 </ul>
-                <p>Note: Access to the camera is required for these functions.</p>
+                <p class="notetext">Note: Turn on the "Reorder" switch to access the following options.</p>
                 
-                <strong>Reorder Period</strong>
+                <p class="headerText">Reorder Period</p>
                 <ul>
                     <li>Set how often you want the item to be automatically added to your list.</li>
                 </ul>
-                <p>Note: Turn on the "Reorder" switch to access this option.</p>
                 
-                <strong>List</strong>
+                <p class="headerText">List</p>
                 <ul>
                     <li>Choose the list you want the item to be added to when the reorder time elapses.</li>
                 </ul>
-                <p>Note: Turn on the "Reorder" switch to access this option.</p>
                 
-                <strong>Category</strong>
+                <p class="headerText">Category</p>
                 <ul>
                     <li>Choose what category to add the item to in the specified list.</li>
                 </ul>
-                <p>Note: Turn on the "Reorder" switch to access this option.</p>
                 
-                <strong>Reorder Notification</strong>
+                <p class="headerText">Reorder Notification</p>
                 <ul>
                     <li>Choose whether or not to recieve a notification when the item was automatically added to your list.</li>
                 </ul>
-                <p>Note: Turn on the "Reorder" switch to access this option.</p>
                 
             </div>
             
@@ -443,12 +438,6 @@
         </div>
         
         <div class="margin3"></div>
-        
-        
-        
-        
-        
-        
         
         
         <div class="horizontal-adaptable-small" style="background-color: #333333; padding-left: 20px; margin-bottom: 0px; margin-left:-10px; margin-right:-10px;">
