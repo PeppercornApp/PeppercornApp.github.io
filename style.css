@@ -3,7 +3,11 @@
         font-size: 80px;
     }
     .largeTitle2 {
-        font-size: 70px;
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .heading {
+        font-size: 35px;
     }
     .text {
         margin-left: 86px;
@@ -63,6 +67,9 @@
     .largeTitle2 {
         font-size: 50px;
     }
+    .heading {
+        font-size: 35px;
+    }
     .text {
         margin-left: 86px;
         font-size: 20px;
@@ -117,6 +124,9 @@
     }
     .largeTitle2 {
         font-size: 40px;
+    }
+    .heading {
+        font-size: 20px;
     }
     .text {
         margin-left: 86px;
