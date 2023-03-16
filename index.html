@@ -11,6 +11,39 @@
         <script src="https://kit.fontawesome.com/32b4ec2234.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="./style.css"/>
     </head>
+    
+    <style>
+        @media screen and (min-width: 500px) {
+            .container {
+                margin: 0 auto;
+                background: white;
+                padding: 40px;
+                border: 3px solid #eaeaea;
+                border-radius: 50px;
+                width: 400px;
+            }
+            .downloadButton {
+                width: 400px;
+                font-weight: 500;
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            .container {
+                margin: 0 auto;
+                background: white;
+                padding: 40px;
+                border: 3px solid #eaeaea;
+                border-radius: 50px;
+                width: 300px;
+            }
+            .downloadButton {
+                width: 300px;
+                font-weight: 500;
+            }
+        }
+    </style>
+    
     <body>
         
         <div class="topnav" style="padding-bottom:50px; padding-top:10px;">
@@ -139,14 +172,14 @@
         
         <br>
         
-        <div style="margin: 0 auto; background: white; padding: 40px; border: 3px solid #eaeaea; border-radius: 50px; width: 400px;">
+        <div class="container">
             
             <img src="./images/Icon-256.png"alt="Peppercorn" class="smallImage" >
             <h1 style="font-size:44px; font-weight:500; margin-top: 8px; font-weight: 600;">Get started with<br>Peppercorn today.</h1>
             
             <div class="margin1"></div>
             
-            <a href="https://apps.apple.com/us/app/sparkcards/id1602977190" ><button class="navigationlink navblue" style="width: 400px; font-weight: 500;"> Download <div><i class="fa-solid fa-chevron-right"></i></div></button></a>
+            <a href="https://apps.apple.com/us/app/sparkcards/id1602977190" ><button class="navigationlink navblue downloadButton"> Download <div><i class="fa-solid fa-chevron-right"></i></div></button></a>
             
         </div>
         
