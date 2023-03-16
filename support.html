@@ -7,251 +7,11 @@
         <link rel="apple-touch-icon" href="./images/logo-circle.png">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/32b4ec2234.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="./style.css"/>
     </head>
-    <!--<style>
-        
-        @media screen and (min-width: 1000px) {
-            .largeTitle {
-                font-size: 60px;
-            }
-            .logoImage {
-                width:10%
-            }
-            .questions {
-                margin-left:15%;
-                margin-right:15%;
-                text-align:left;
-            }
-            hr {
-              border: 1px solid #c4c4c4;
-              border-radius: 1px;
-              margin-left:10%;
-              margin-right:10%;
-            }
-            .hr2 {
-              border: 1px solid #c4c4c4;
-              border-radius: 1px;
-              margin-left:25%;
-              margin-right:25%;
-            }
-            .title-text {
-                font-size:35pt;
-            }
-        }
-        @media screen and (max-width: 1000px) {
-            .largeTitle {
-                font-size: 50px;
-            }
-            .logoImage {
-                width: 12%;
-            }
-            .questions {
-                margin-left:10%;
-                margin-right:10%;
-                text-align:left;
-            }
-            hr {
-              border: 1px solid #c4c4c4;
-              border-radius: 1px;
-              margin-left:5%;
-              margin-right:5%;
-            }
-            .hr2 {
-              border: 1px solid #c4c4c4;
-              border-radius: 1px;
-              margin-left:15%;
-              margin-right:15%;
-            }
-            .title-text {
-                font-size:33pt;
-            }
-        }
-        @media screen and (max-width: 800px) {
-            .largeTitle {
-                font-size: 50px;
-            }
-            .logoImage {
-                width: 14%;
-            }
-            .questions {
-                margin-left:5%;
-                margin-right:5%;
-                text-align:left;
-            }
-            hr {
-              border: 1px solid #c4c4c4;
-              border-radius: 1px;
-              margin-left:3%;
-              margin-right:3%;
-            }
-            .hr2 {
-              border: 1px solid #c4c4c4;
-              border-radius: 1px;
-              margin-left:10%;
-              margin-right:10%;
-            }
-            
-            .title-text {
-                font-size:31pt;
-            }
-        }
-        @media screen and (max-width: 600px) {
-            .largeTitle {
-                font-size: 50px;
-            }
-            .logoImage {
-                width: 16%;
-            }
-            .questions {
-                margin-left:2%;
-                margin-right:2%;
-                text-align:left;
-            }
-            hr {
-              border: 1px solid #c4c4c4;
-              border-radius: 1px;
-              margin-left:1%;
-              margin-right:1%;
-            }
-            .hr2 {
-              border: 1px solid #c4c4c4;
-              border-radius: 1px;
-              margin-left:2%;
-              margin-right:2%;
-            }
-            .title-text {
-                font-size:29pt;
-            }
-        }
-        
-        
-        .auto_image {
-           background-image: url('./images/Icon-128.png');
-           background-size: 50px;
-           width: 50px;
-           height: 50px;
-           margin-right: -20px;
-        }
-        
-        
-        body {
-            font-family: helvetica;
-            zoom: 100%;
-        }
-        .button {
-            background-color: #FFF;
-            border: 2px solid #017BFF;
-            color: #017BFF;
-            height: 40px;
-            padding-left:20px;
-            padding-right:20px;
-            text-align: center;
-            font-size: 12pt;
-            text-decoration: none;
-            cursor: pointer;
-            border-radius: 20px;
-        }
-        .button:hover {
-            background-color: #017BFF;
-            color: white;
-            transition: 0.4s;
-        }
-        .header {
-            color:#017BFF   ;
-            padding-left:10px;
-            padding-right:20px;
-            padding-top:8px;
-            padding-bottom:8px;
-            
-            /*background-color:#FE950F;*/
-            border: 1.5px solid #017BFF;
-            
-            text-align:left;
-            font-size:18px;
-            
-            border-radius:12px;
-            
-            cursor:pointer;
-            
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-        .content {
-            margin-top:0px;
-            
-            padding-left:10px;
-            padding-right:10px;
-            padding-top:10px;
-            padding-bottom:10px;
-            
-            color:#6b6b6b;
-            background-color:#FFF;
-            border: 1.5px solid #017BFF;
-            border-radius:12px;
-            
-            border-top:none;
-            border-top-right-radius:0px;
-            border-top-left-radius:0px;
-            
-            display:none;
-        }
-        
-        .accordianIndicator {
-            font-family:courier;
-        }
-        .link:hover {
-            color: #0c0c0c;
-        }
-        
-        .footerLink {
-            color: #b5b5b5;
-            font-size: 11pt;
-            text-decoration: none;
-        }
-        .footerLink:hover {
-            color: #e8e8e8;
-        }
-        
-        
-        
-        
-        
-        
-        .topnav {
-          overflow: hidden;
-          background-color: clear;
-          
-          margin-top: -10px;
-          margin-bottom: -10px;
-          margin-left: -10px;
-          margin-right: -10px;
-        }
-        
-        .topnav a {
-          float: left;
-          color: gray;
-          text-align: center;
-          padding: 8px;
-          padding-top: 12px;
-          text-decoration: none;
-          font-size: 17px;
-        }
-        
-        .topnav a:hover {
-          color:  #aaaaaa;
-        }
-        
-        .topnav a.active {
-          color: #2e2e2e;
-        }
-        
-        
-    </style> -->
     
     <script type="text/javascript" language="JavaScript">
         function toggleSection(sSection) {
@@ -306,18 +66,17 @@
         
         <h1 class="largeTitle2" style="margin-right: 10%; margin-left: 10%;">Peppercorn Support</h1>
         
+        <div class="margin0"></div>
         
+        <div class="largeMargin">
+            <a href="mailto:peppercornhelp@gmail.com?subject=Peppercorn Support Request" ><button class="navigationlink"> <i class="fa-solid fa-envelope" style="color: #017BFF;"></i>&nbsp Contact Support <div><i class="fa-solid fa-chevron-right"></i></div></button></a>
+        </div>
         
-        
-        <p class="smallText largeMargin" style="text-align: center;">Experiencing an issue or have a question about our products or services? Please <a href="mailto:sparkcardshelp@gmail.com?subject=SparkCards Support Request" style="color:#017BFF; text-decoration: none;">contact us</a> to get in touch with our support team.</p>
-        
-        <a href="mailto:peppercornhelp@gmail.com?subject=Peppercorn Support Request" ><button class="button">Contact Support &rsaquo;</button></a>
-        
-        <div class="margin3"></div>
+        <div class="margin2"></div>
         
         
         <a name="faqs">
-            <h1 style="margin-left:10%; margin-right:10%;">Frequently Asked Questions</h1>
+            <h1 style="margin-left:10%; margin-right:10%; font-weight: 500;">Frequently Asked Questions</h1>
         </a>
         
         <div class="margin1"></div>
