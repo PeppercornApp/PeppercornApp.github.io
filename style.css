@@ -1,3 +1,12 @@
+
+
+:root {
+  --color-primary: #017BFF;
+  --color-light-blue: #268fff;
+  --color-medium-dark-blue: #003b7a;
+  --color-dark-blue: #001d3d;
+}
+
 @media screen and (min-width: 700px) {
     .largeTitle {
         font-size: 80px;
@@ -246,7 +255,7 @@ body {
     margin: 5px;
     overflow: hidden;
     position: relative;
-    background: #017BFF;
+    background: var(--color-primary);
     border-radius: 50%;
 }
 .image-wrapper img {
@@ -273,8 +282,8 @@ body {
 }
 .button {
     background-color: #f4f4f4;
-    border: 2px solid #017BFF;
-    color: #017BFF;
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
     height: 40px;
     padding-right: 20px;
     padding-left: 20px;
@@ -286,7 +295,7 @@ body {
     border-radius: 20px;
 }
 .button:hover {
-    background-color: #017BFF;
+    background-color: var(--color-primary);
     color: #f4f4f4;
     transition: 0.3s;
 }
@@ -317,11 +326,11 @@ body {
 }
 
 .navblue {
-    border: 2px solid #017BFF;
+    border: 3px solid var(--color-primary);
 }
 
 .navblue:hover {
-    border: 3px solid #017BFF;
+    border: 4px solid var(--color-primary);
 }
 
 .navigationlink div {
@@ -336,8 +345,8 @@ body {
 
 
 .button2 {
-    background-color: #017BFF;
-    border: 0px solid #017BFF;
+    background-color: var(--color-primary);
+    border: 0px solid var(--color-primary);
     color: white;
     height: 50px;
     width: 150px;
@@ -350,8 +359,8 @@ body {
 }
 .button2:hover {
     background-color: #FFF;
-    border: 2px solid #017BFF;
-    color: #017BFF;
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
     transition: 0.3s;
 }
 
@@ -517,3 +526,19 @@ body {
     margin-top: -10px;
 }
 
+.gradient {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(0deg, var(--color-primary), var(--color-medium-dark-blue));
+}
+
+.gradient-small {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(35deg, var(--color-primary), var(--color-medium-dark-blue));
+}
+
+.gradient-fill {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(35deg, var(--color-primary), var(--color-medium-dark-blue));
+}
