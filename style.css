@@ -276,7 +276,7 @@ body {
     margin-right: 15px;
     overflow: hidden;
     position: relative;
-    background: var(--color-background);;
+    background: var(--color-background);
     border-radius: 50%;
 }
 
