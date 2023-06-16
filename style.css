@@ -8,6 +8,7 @@
   --color-semi-dark-blue: #005dc1;
   --color-background: #f4f4f4;
   --color-text: #f4f4f4;
+  --color-light-gray: #aaaaaa;
 }
 
 
@@ -234,7 +235,7 @@
 
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: -apple-system;
     text-align: center;
     zoom: 100%;
     max-width: 100%;
@@ -331,6 +332,27 @@ body {
     transition: 0.3s;
 }
 
+.button-primary {
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    border: 3px solid var(--color-primary);
+    height: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 15pt;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 16px;
+}
+.button-primary:hover {
+    background-color: var(--color-background);;
+    border: 3px solid var(--color-primary);
+    color: var(--color-primary);
+    transition: 0.3s;
+}
+
 .navigationlink {
     background-color: white;
     border: 1px solid #aaaaaa;
@@ -366,6 +388,20 @@ body {
 
 .navblue:hover div {
     color: var(--color-primary);
+}
+
+.navNew {
+    border: none;
+    background: #d4d4d4;
+}
+
+.navNew:hover {
+    border: none;
+    background: #c2c2c2;
+}
+
+.navNew:hover div {
+    
 }
 
 .navigationlink div {
@@ -451,6 +487,10 @@ body {
 
 
 
+.subheading {
+    font-size: 22px;
+    color: gray;
+}
 
 
 
@@ -523,6 +563,10 @@ body {
 
 .margin1 {
     height: 20px;
+}
+
+.margin1-5 {
+    height: 26px;
 }
 
 .margin2 {
