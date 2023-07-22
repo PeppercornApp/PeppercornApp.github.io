@@ -11,6 +11,61 @@
   --color-light-gray: #aaaaaa;
 }
 
+@media screen and (min-width: 500px) {
+    .container {
+        margin: 0 auto;
+        background: clear;
+        padding: 40px;
+        border: none;
+        border-radius: 50px;
+        width: 400px;
+    }
+    .downloadSize {
+        width: 400px;
+        font-weight: 500;
+    }
+    .largeTitle3 {
+        font-size: 44px;
+        font-weight: 700; 
+    }
+}
+@media screen and (max-width: 500px) {
+    .container {
+        margin: 0 auto;
+        background: clear;
+        padding: 40px;
+        border: none;
+        border-radius: 50px;
+        width: 280px;
+    }
+    .downloadSize {
+        width: 280px;
+        font-weight: 500;
+    }
+    .largeTitle3 {
+        font-size: 30px;
+        font-weight: 500; 
+    }
+}
+@media screen and (max-width: 400px) {
+    .container {
+        margin: 0 auto;
+        background: clear;
+        padding: 40px;
+        border: none;
+        border-radius: 50px;
+        width: 220px;
+    }
+    .downloadSize {
+        width: 220px;
+        font-weight: 500;
+    }
+    .largeTitle3 {
+        font-size: 22px;
+        font-weight: 500; 
+    }
+}
+
 
 
 @media screen and (min-width: 700px) {
@@ -488,6 +543,11 @@ body {
 
 
 .subheading {
+    font-size: 22px;
+    color: gray;
+}
+
+.subheading-dark {
     font-size: 22px;
     color: gray;
 }
